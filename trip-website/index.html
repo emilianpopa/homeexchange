@@ -145,7 +145,7 @@
     .budget-remaining-value { color:var(--gold); font-size:1.5rem; font-family:'Playfair Display',serif; font-weight:700; }
 
     /* ── TIPS ── */
-    .tips-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; }
+    .tips-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.5rem; }
     .tip-card { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1); border-radius:14px; padding:1.5rem; }
     .tip-icon { font-size:1.8rem; margin-bottom:.75rem; }
     .tip-title { font-weight:600; color:#fff; font-size:.95rem; margin-bottom:.5rem; }
@@ -181,15 +181,15 @@
   <h1>Norway<br>Summer 2026</h1>
   <p class="hero-sub">A family road trip through the fjords</p>
   <div class="hero-stats">
-    <div class="hero-stat"><span class="hero-stat-num">23</span><span class="hero-stat-label">Nights</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">27</span><span class="hero-stat-label">Days</span></div>
     <div class="hero-divider"></div>
-    <div class="hero-stat"><span class="hero-stat-num">3</span><span class="hero-stat-label">Stops</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">2</span><span class="hero-stat-label">Stops</span></div>
     <div class="hero-divider"></div>
     <div class="hero-stat"><span class="hero-stat-num">4</span><span class="hero-stat-label">Explorers</span></div>
     <div class="hero-divider"></div>
-    <div class="hero-stat"><span class="hero-stat-num">Jul 26</span><span class="hero-stat-label">Departure</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">Jul 15</span><span class="hero-stat-label">Departure</span></div>
     <div class="hero-divider"></div>
-    <div class="hero-stat"><span class="hero-stat-num">2,657</span><span class="hero-stat-label">km</span></div>
+    <div class="hero-stat"><span class="hero-stat-num">2,500</span><span class="hero-stat-label">km</span></div>
   </div>
   <div class="scroll-hint"><div class="scroll-arrow"></div>Scroll</div>
 </header>
@@ -198,7 +198,7 @@
 <div class="dark-section">
   <div class="section">
     <p class="section-title">The Route</p>
-    <p class="section-subtitle">Copenhagen → Bergen → Ulsteinvik → Giske/Ålesund → Copenhagen</p>
+    <p class="section-subtitle">Copenhagen → Bergen → Free roaming → Ulsteinvik → Copenhagen</p>
     <div class="section-rule"></div>
     <div id="map"></div>
   </div>
@@ -238,7 +238,7 @@
       <ul class="get-list">
         <li><strong>Fjord Line:</strong> Hirtshals (Denmark) → Bergen, Norway — daily departures</li>
         <li>Journey: ~<strong>17 hours overnight</strong> — departs ~3pm, arrives Bergen ~8am next day</li>
-        <li>Driving to Hirtshals from Copenhagen: <strong>3.5h</strong> — depart morning of Jul 26</li>
+        <li>Driving to Hirtshals from Copenhagen: <strong>3.5h</strong> — depart morning of Jul 14</li>
         <li>Book a <strong>family cabin</strong> (4-berth) — small children sleep well on the rocking ship. Restaurant, kids' play room, deck views of fjords</li>
         <li>Return: Bergen → Hirtshals is not needed — we drive back via Oslo. DFDS Oslo→Copenhagen ferry optional for return</li>
         <li>Cost: ~<strong>€280–380</strong> for car + 4 passengers + cabin (book early for best rates)</li>
@@ -265,7 +265,7 @@
           <div class="timeline-line"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Jul 26 — Outbound</p>
+          <p class="timeline-label">Jul 14 — Outbound</p>
           <h3 class="timeline-name">Copenhagen → Hirtshals</h3>
           <p class="timeline-meta">3.5h drive · ~330 km · Depart morning</p>
           <div class="timeline-stops">
@@ -284,7 +284,7 @@
           <div class="timeline-line"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Jul 26 afternoon → Jul 27 morning</p>
+          <p class="timeline-label">Jul 14 afternoon → Jul 15 morning</p>
           <h3 class="timeline-name">Overnight Ferry: Hirtshals → Bergen</h3>
           <p class="timeline-meta">~17 hours · Fjord Line · Board ~3pm · Arrive Bergen ~8am</p>
           <div class="timeline-stops">
@@ -303,28 +303,47 @@
           <div class="timeline-line"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Jul 27 – Aug 2 · 7 nights</p>
+          <p class="timeline-label">Jul 15 – 22 · 7 nights · Confirmed ✓</p>
           <h3 class="timeline-name">Bergen Base</h3>
           <p class="timeline-meta">See full itinerary below ↓</p>
         </div>
       </div>
 
-      <!-- Stage 2: Bergen → Ulsteinvik -->
+      <!-- Free Roaming Gap -->
+      <div class="timeline-item">
+        <div class="timeline-dot-col">
+          <div class="timeline-dot" style="background:#15803d">🏕</div>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-content">
+          <p class="timeline-label">Jul 22 – Aug 3 · 12 days · Free roaming</p>
+          <h3 class="timeline-name">Fjords, Valleys & Wild Camping</h3>
+          <p class="timeline-meta">No fixed base — drive, explore, camp at will</p>
+          <div class="timeline-stops">
+            <span class="stop-chip stop-chip-scenic">🌊 Sognefjord — Norway's longest fjord</span>
+            <span class="stop-chip stop-chip-scenic">💧 Tvindefossen waterfall near Voss</span>
+            <span class="stop-chip stop-chip-scenic">🏔 Stalheimskleiva gorge</span>
+            <span class="stop-chip stop-chip-camping">⛺ Wild camping under allemannsretten</span>
+            <span class="stop-chip stop-chip-food">📱 Use park4night app for overnight spots</span>
+          </div>
+          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">12 days of total freedom — the heart of the trip. Head north from Bergen into the fjord country. Camp by rivers and lakes using Norway's right-to-roam. Use the <strong>park4night app</strong> to find the best overnight spots: lakesides, forest clearings, quiet bays. Work your way up the coast toward Ulsteinvik by Aug 3.</p>
+        </div>
+      </div>
+
+      <!-- Stage 2: to Ulsteinvik -->
       <div class="timeline-item">
         <div class="timeline-dot-col">
           <div class="timeline-dot" style="background:var(--teal)">2</div>
           <div class="timeline-line"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Aug 3 — Scenic Drive</p>
-          <h3 class="timeline-name">Bergen → Ulsteinvik</h3>
-          <p class="timeline-meta">2.5h direct · or 4h via Voss (recommended)</p>
+          <p class="timeline-label">Aug 3 — Arrive</p>
+          <h3 class="timeline-name">→ Ulsteinvik</h3>
+          <p class="timeline-meta">Via Voss / Sognefjord road · ~3–4h from Bergen direction</p>
           <div class="timeline-stops">
-            <span class="stop-chip stop-chip-scenic">🌊 Voss — fjord-side town, lunch stop</span>
-            <span class="stop-chip stop-chip-scenic">💧 Tvindefossen waterfall — pull off the road</span>
-            <span class="stop-chip stop-chip-scenic">🏔 Stalheimskleiva gorge views</span>
+            <span class="stop-chip stop-chip-scenic">🏔 Stalheimskleiva gorge last look</span>
+            <span class="stop-chip stop-chip-scenic">⛴ Ørsta-Volda ferry crossing (optional)</span>
           </div>
-          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">Take the scenic inland route via Voss. <strong>Tvindefossen</strong> (near Voss) is one of Norway's prettiest roadside waterfalls — park and walk 2 minutes. Then follow the Sognefjord road north towards Ulsteinvik via the Ørsta-Volda tunnel system.</p>
         </div>
       </div>
 
@@ -341,53 +360,22 @@
         </div>
       </div>
 
-      <!-- Stage 3: Ulsteinvik → Giske -->
-      <div class="timeline-item">
-        <div class="timeline-dot-col">
-          <div class="timeline-dot" style="background:var(--teal)">3</div>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-content">
-          <p class="timeline-label">Aug 10 — Short Hop</p>
-          <h3 class="timeline-name">Ulsteinvik → Giske Island</h3>
-          <p class="timeline-meta">1h 20min · 85 km · Via Ørsta–Volda–Ålesund tunnel</p>
-          <div class="timeline-stops">
-            <span class="stop-chip stop-chip-food">☕ Coffee stop in Ålesund city center</span>
-            <span class="stop-chip stop-chip-scenic">📷 Aksla viewpoint — 418 steps, panoramic</span>
-          </div>
-          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">Short drive — stop in Ålesund for an hour. Climb the 418 steps to Aksla for the classic view of the Art Nouveau city and surrounding islands. Then cross to Giske via the undersea tunnel.</p>
-        </div>
-      </div>
-
-      <!-- Giske stay -->
-      <div class="timeline-item">
-        <div class="timeline-dot-col">
-          <div class="timeline-dot" style="background:var(--navy)">G</div>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-content">
-          <p class="timeline-label">Aug 10 – 17 · 7 nights</p>
-          <h3 class="timeline-name">Giske Base</h3>
-          <p class="timeline-meta">See full itinerary below ↓</p>
-        </div>
-      </div>
-
-      <!-- Return Day 1 -->
+      <!-- Return Day 1 from Ulsteinvik -->
       <div class="timeline-item">
         <div class="timeline-dot-col">
           <div class="timeline-dot" style="background:#7c3aed">R1</div>
           <div class="timeline-line"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Aug 17 — Return Day 1</p>
-          <h3 class="timeline-name">Giske → Trollstigen → Lake Lesjaskogsvatnet</h3>
-          <p class="timeline-meta">~4.5h driving · Overnight at lake (cabin or camping)</p>
+          <p class="timeline-label">Aug 9 — Return Day 1</p>
+          <h3 class="timeline-name">Ulsteinvik → Ålesund → Trollstigen → Kilefjorden</h3>
+          <p class="timeline-meta">~5h driving · Overnight Kilefjorden Camping</p>
           <div class="timeline-stops">
+            <span class="stop-chip stop-chip-scenic">📷 Aksla viewpoint in Ålesund — quick stop</span>
             <span class="stop-chip stop-chip-scenic">🌀 Trollstigen serpentine mountain road</span>
-            <span class="stop-chip stop-chip-scenic">☕ Trollstigen Café visitor center</span>
-            <span class="stop-chip stop-chip-camping">⛺ Camp at Lake Lesjaskogsvatnet</span>
+            <span class="stop-chip stop-chip-camping">⛺ Kilefjorden Camping — children's beach + sauna</span>
           </div>
-          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;"><strong>Trollstigen</strong> ("Troll's Path") is the iconic 11-hairpin mountain road — a must. Visitor center at the top has a café and observation decks. Then drive south into the Gudbrandsdalen valley. <strong>Lake Lesjaskogsvatnet</strong> is a stunning glacial lake with free wild camping spots on the banks (Norwegian "allemannsretten" — right to roam). Book a small cabin (hytte) here for a more comfortable night with the baby.</p>
+          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">Stop in Ålesund for a quick look at the Art Nouveau city and the Aksla viewpoint panorama. Then tackle <strong>Trollstigen</strong> — 11 hairpin bends with a waterfall alongside. Overnight at <strong>Kilefjorden Camping</strong> in the Numedal valley — a magical nature spot with a small children's beach, sauna, kitchen, and tiny deserted islands you can row to. Blueberry picking and fishing for Clara.</p>
         </div>
       </div>
 
@@ -398,16 +386,15 @@
           <div class="timeline-line"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Aug 18 — Return Day 2</p>
-          <h3 class="timeline-name">Lesjaskogsvatnet → Lillehammer → Oslo</h3>
-          <p class="timeline-meta">~3.5h driving · Optional 1 night in Oslo</p>
+          <p class="timeline-label">Aug 10 — Return Day 2</p>
+          <h3 class="timeline-name">Kilefjorden → Kongsberg → Oslo</h3>
+          <p class="timeline-meta">~3h driving · Optional city stop</p>
           <div class="timeline-stops">
-            <span class="stop-chip stop-chip-scenic">🏔 Morning walk: Dovrefjell foothills</span>
-            <span class="stop-chip stop-chip-scenic">🏅 Lillehammer — 1994 Olympics town</span>
-            <span class="stop-chip stop-chip-food">🍕 Lunch by Lake Mjøsa (Norway's largest)</span>
+            <span class="stop-chip stop-chip-scenic">🏔 Morning row to the island</span>
+            <span class="stop-chip stop-chip-scenic">⛏ Kongsberg Silver Mines (kid-friendly museum)</span>
             <span class="stop-chip stop-chip-scenic">🏙 Oslo city walk (optional overnight)</span>
           </div>
-          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">Drive south through the gorgeous Gudbrandsdalen valley. Quick stop in <strong>Lillehammer</strong> — walk by the lake, see the Olympic ski jump. Arrive Oslo afternoon. Either spend 1 night in Oslo or continue to the ferry.</p>
+          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">Lazy morning at the lake — let Clara row out to the little island one more time. Then south through Kongsberg and into Oslo. Either spend a night in Oslo or push on to the ferry.</p>
         </div>
       </div>
 
@@ -418,14 +405,14 @@
           <div class="timeline-line" style="display:none"></div>
         </div>
         <div class="timeline-content">
-          <p class="timeline-label">Aug 18/19 — Return</p>
+          <p class="timeline-label">Aug 10/11 — Home</p>
           <h3 class="timeline-name">Oslo → Copenhagen</h3>
           <p class="timeline-meta">Option A: Drive via Gothenburg (~6h) · Option B: DFDS overnight ferry Oslo→CPH (~17h)</p>
           <div class="timeline-stops">
             <span class="stop-chip stop-chip-scenic">🚗 E6/E20 via Gothenburg — no border stops</span>
             <span class="stop-chip" style="background:#f0f9ff; border-color:#bae6fd; color:#0369a1">⛴ DFDS ferry: Oslo → Copenhagen (overnight)</span>
           </div>
-          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">With two small children, the <strong>DFDS overnight ferry</strong> from Oslo → Copenhagen is highly recommended for the return — same magic as the outward ferry, no long daytime car drive. Departs ~2pm, arrives Copenhagen ~10am next day.</p>
+          <p style="font-size:.85rem; color:var(--muted); margin-top:.75rem;">With two small children, the <strong>DFDS overnight ferry</strong> from Oslo → Copenhagen is highly recommended — same magic as the outward ferry, no long daytime car drive. Departs ~2pm, arrives Copenhagen ~10am next day. Home by Aug 11.</p>
         </div>
       </div>
 
@@ -473,13 +460,24 @@
       </div>
     </div>
 
+    <div class="stop-card">
+      <div class="stop-card-img" style="background:linear-gradient(135deg,#0f4c2a 0%,#1a6a4a 100%); display:flex; align-items:center; justify-content:center; font-size:5rem;">
+        🏕
+      </div>
+      <div class="stop-card-body">
+        <p class="stop-card-tag">⛵ Return overnight · Catherine's tip</p>
+        <h3 class="stop-card-title">Kilefjorden Camping</h3>
+        <p class="stop-card-desc">A stunning nature campsite in the Numedal valley with a small children's beach, sauna, great kitchen and bathroom facilities. Tiny deserted islands you can row out to — pick blueberries and fish straight off the boat. Perfect last-night-in-Norway magic for the whole family.</p>
+      </div>
+    </div>
+
   </div>
 </div>
 
 <!-- ═══ THE THREE STAYS ═══ -->
 <div class="section" style="padding-top:2rem;">
-  <p class="section-title">The Three Stays</p>
-  <p class="section-subtitle">Seven nights · six nights · seven nights</p>
+  <p class="section-title">The Two Stays</p>
+  <p class="section-subtitle">Seven nights in Bergen · six nights in Ulsteinvik</p>
   <div class="section-rule"></div>
 
   <!-- LEG 1: BERGEN -->
@@ -488,12 +486,12 @@
       <div class="leg-image-overlay"></div>
     </div>
     <div class="leg-content">
-      <span class="leg-badge badge-pending">🔔 Awaiting confirmation</span>
-      <p class="leg-number">Leg 1 of 3</p>
+      <span class="leg-badge badge-confirmed">✓ Confirmed — Julia's house</span>
+      <p class="leg-number">Leg 1 of 2</p>
       <h2 class="leg-title">Bergen</h2>
-      <p class="leg-dates">Jul 27 – Aug 2 · 7 nights</p>
+      <p class="leg-dates">Jul 15 – 22 · 7 nights</p>
       <p class="leg-desc">Norway's gateway city, nestled between seven mountains and seven fjords. The colorful Hanseatic wharf of Bryggen lines the harbor, and a funicular whisks you above the clouds. Best base for Sognefjord and Hardangerfjord day trips.</p>
-      <div class="leg-gp">🪙 288 GP/night · 2,016 GP total</div>
+      <div class="leg-gp">🪙 300 GP/night · 2,100 GP total</div>
       <div class="act-grid">
         <div class="act-section">
           <h4>In the city</h4>
@@ -522,7 +520,7 @@
     </div>
     <div class="leg-content">
       <span class="leg-badge badge-confirmed">✓ Confirmed — Julianne's house</span>
-      <p class="leg-number">Leg 2 of 3</p>
+      <p class="leg-number">Leg 2 of 2</p>
       <h2 class="leg-title">Ulsteinvik</h2>
       <p class="leg-dates">Aug 3 – 9 · 6 nights</p>
       <p class="leg-desc">A quiet maritime town on Norway's west coast, surrounded by dramatic island scenery. Julianne's house is your peaceful base for some of the country's most spectacular fjord day trips — Geirangerfjord is 2.5 hours away.</p>
@@ -548,38 +546,6 @@
     </div>
   </div>
 
-  <!-- LEG 3: GISKE -->
-  <div class="leg">
-    <div class="leg-image" style="background-image:url('https://images.unsplash.com/photo-1559511332-a879f46bfa8f?auto=format&fit=crop&w=900&q=85'), linear-gradient(135deg,#1a3a5c,#3a7a6a)">
-      <div class="leg-image-overlay"></div>
-    </div>
-    <div class="leg-content">
-      <span class="leg-badge badge-pending">🔔 Awaiting confirmation</span>
-      <p class="leg-number">Leg 3 of 3</p>
-      <h2 class="leg-title">Giske · Ålesund</h2>
-      <p class="leg-dates">Aug 10 – 17 · 7 nights</p>
-      <p class="leg-desc">A picture-perfect island 15 minutes from Ålesund — Art Nouveau architecture, island beaches, and a trampoline in the garden for Clara. Ferry to Geirangerfjord runs directly from Ålesund harbor. Golden midnight light lasts till 11pm.</p>
-      <div class="leg-gp">🪙 236 GP/night · 1,652 GP total</div>
-      <div class="act-grid">
-        <div class="act-section">
-          <h4>In Ålesund & Giske</h4>
-          <div class="act-item"><div class="act-dot"></div>Ålesund Art Nouveau architecture</div>
-          <div class="act-item"><div class="act-dot"></div>Aksla viewpoint — 418 steps up</div>
-          <div class="act-item"><div class="act-dot"></div>Giske island beach + medieval church</div>
-          <div class="act-item"><div class="act-dot"></div>Ålesund Aquarium (Atlanterhavsparken)</div>
-          <div class="act-item"><div class="act-dot"></div>Vigra beach (connected island, 10 min)</div>
-        </div>
-        <div class="act-section">
-          <h4>Day trips</h4>
-          <div class="act-item"><div class="act-dot act-dot-gold"></div>Geirangerfjord boat tour from Ålesund</div>
-          <div class="act-item"><div class="act-dot act-dot-gold"></div>Runde island — puffin nesting ground</div>
-          <div class="act-item"><div class="act-dot act-dot-gold"></div>Atlantic Road (Atlanterhavsveien)</div>
-          <div class="act-item"><div class="act-dot act-dot-gold"></div>Molde — "Town of Roses" + panorama</div>
-          <div class="act-item"><div class="act-dot act-dot-gold"></div>Hjørundfjord kayak or boat trip</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 </div>
 
@@ -587,7 +553,7 @@
 <div class="mid-section">
   <div class="section">
     <p class="section-title">GuestPoints Budget</p>
-    <p class="section-subtitle">All three stays via HomeExchange GuestPoints</p>
+    <p class="section-subtitle">Both stays via HomeExchange GuestPoints</p>
     <div class="section-rule"></div>
     <table class="budget-table">
       <thead>
@@ -596,18 +562,17 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>Bergen — Erik & Christine</td><td>Jul 27 – Aug 2</td><td>7</td><td>288 GP</td><td>2,016 GP</td></tr>
+        <tr><td>Bergen — Julia ✓</td><td>Jul 15 – 22</td><td>7</td><td>300 GP</td><td>2,100 GP</td></tr>
         <tr><td>Ulsteinvik — Julianne ✓</td><td>Aug 3 – 9</td><td>6</td><td>250 GP</td><td>1,500 GP</td></tr>
-        <tr><td>Giske — Iver & Heidi</td><td>Aug 10 – 17</td><td>7</td><td>236 GP</td><td>1,652 GP</td></tr>
-        <tr><td><strong>Total</strong></td><td></td><td><strong>20</strong></td><td></td><td><strong>5,168 GP</strong></td></tr>
+        <tr><td><strong>Total</strong></td><td></td><td><strong>13</strong></td><td></td><td><strong>3,600 GP</strong></td></tr>
       </tbody>
     </table>
     <div class="budget-remaining">
-      <div><div class="budget-remaining-label">GP available</div><div class="budget-remaining-value">16,483 GP</div></div>
+      <div><div class="budget-remaining-label">GP available</div><div class="budget-remaining-value">14,383 GP</div></div>
       <div style="color:rgba(255,255,255,.3); font-size:1.5rem">→</div>
-      <div><div class="budget-remaining-label">Remaining after trip</div><div class="budget-remaining-value">11,315 GP</div></div>
+      <div><div class="budget-remaining-label">Remaining after trip</div><div class="budget-remaining-value">10,783 GP</div></div>
       <div style="color:rgba(255,255,255,.3); font-size:1.5rem">+</div>
-      <div><div class="budget-remaining-label">Additional costs</div><div class="budget-remaining-value" style="font-size:1rem; opacity:.8">Ferry ~€350 · Car ~€800 · Petrol ~€200 · Camping night ~€80</div></div>
+      <div><div class="budget-remaining-label">Additional costs</div><div class="budget-remaining-value" style="font-size:1rem; opacity:.8">Ferry ~€350 · Car ~€800 · Petrol ~€200 · Kilefjorden camping ~€60</div></div>
     </div>
   </div>
 </div>
@@ -639,6 +604,11 @@
         <p class="tip-title">Baby & Toddler</p>
         <p class="tip-text">Norway is extremely family-friendly. All restaurants have high chairs, most attractions are free under 3. Good baby changing facilities everywhere. Supermarkets (Kiwi, Rema 1000) stock familiar brands. Pack a carrier for mountain walks with Stella.</p>
       </div>
+      <div class="tip-card">
+        <div class="tip-icon">📱</div>
+        <p class="tip-title">park4night App</p>
+        <p class="tip-text">The essential app for wild camping in Norway — find lakeside spots, forest clearings, quiet bays, and free overnight parking with real reviews and photos. Essential for the 12-day free-roaming stretch between Bergen and Ulsteinvik. Available on iOS and Android.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -657,17 +627,16 @@
   }).addTo(map);
 
   const stops = [
-    { name:'Copenhagen', sub:'Start / End · Jul 26', coords:[55.6761,12.5683], color:'#6b7280', label:'✈' },
+    { name:'Copenhagen', sub:'Start / End · Jul 14', coords:[55.6761,12.5683], color:'#6b7280', label:'✈' },
     { name:'Skagen', sub:'Quick stop en route', coords:[57.7247,10.5792], color:'#9ca3af', label:'📍' },
-    { name:'Hirtshals', sub:'Board ferry here', coords:[57.5904,9.9572], color:'#9ca3af', label:'⛴' },
-    { name:'Bergen', sub:'Jul 27 – Aug 2', coords:[60.3913,5.3221], color:'#1a3a5c', label:'1' },
-    { name:'Voss / Tvindefossen', sub:'Scenic stop', coords:[60.6280,6.4193], color:'#2a7a8a', label:'💧' },
+    { name:'Hirtshals', sub:'Board ferry Jul 14', coords:[57.5904,9.9572], color:'#9ca3af', label:'⛴' },
+    { name:'Bergen', sub:'Jul 15 – 22 ✓', coords:[60.3913,5.3221], color:'#166534', label:'1' },
+    { name:'Free roaming · fjords', sub:'Jul 22 – Aug 3', coords:[61.2,5.8], color:'#15803d', label:'🏕' },
     { name:'Ulsteinvik', sub:'Aug 3 – 9 ✓', coords:[62.3433,5.8488], color:'#166534', label:'2' },
-    { name:'Giske · Ålesund', sub:'Aug 10 – 17', coords:[62.5039,6.0500], color:'#1a3a5c', label:'3' },
+    { name:'Ålesund', sub:'Quick stop Aug 9', coords:[62.4700,6.1500], color:'#9ca3af', label:'📷' },
     { name:'Trollstigen', sub:'Return stop', coords:[62.4558,7.6703], color:'#7c3aed', label:'🌀' },
-    { name:'Lesjaskogsvatnet', sub:'Camp overnight', coords:[62.1572,8.4172], color:'#166534', label:'⛺' },
-    { name:'Lillehammer', sub:'Return stop', coords:[61.1153,10.4661], color:'#9ca3af', label:'🏅' },
-    { name:'Oslo', sub:'Optional overnight', coords:[59.9139,10.7522], color:'#9ca3af', label:'🏙' },
+    { name:'Kilefjorden Camping', sub:'Overnight · Aug 9', coords:[60.0,9.3], color:'#15803d', label:'🏕' },
+    { name:'Oslo', sub:'Aug 10', coords:[59.9139,10.7522], color:'#9ca3af', label:'🏙' },
   ];
 
   // Outbound route: Copenhagen → Skagen → Hirtshals → Bergen
@@ -676,10 +645,8 @@
   L.polyline([[57.5904,9.9572],[59.5,5.0],[60.3913,5.3221]], { color:'#1b6ca8', weight:2.5, dashArray:'10,6', opacity:.8 }).addTo(map);
   // Bergen → Voss → Ulsteinvik
   L.polyline([[60.3913,5.3221],[60.6280,6.4193],[62.3433,5.8488]], { color:'#c8963e', weight:3, opacity:.85 }).addTo(map);
-  // Ulsteinvik → Giske
-  L.polyline([[62.3433,5.8488],[62.5039,6.0500]], { color:'#c8963e', weight:3, opacity:.85 }).addTo(map);
-  // Return: Giske → Trollstigen → Lesjaskogsvatnet → Lillehammer → Oslo → Copenhagen
-  L.polyline([[62.5039,6.0500],[62.4558,7.6703],[62.1572,8.4172],[61.1153,10.4661],[59.9139,10.7522],[59.0,10.8],[57.7,11.9],[56.0,12.6],[55.6761,12.5683]], { color:'#7c3aed', weight:2.5, dashArray:'8,5', opacity:.75 }).addTo(map);
+  // Return: Ulsteinvik → Ålesund → Trollstigen → Kilefjorden → Oslo → Copenhagen
+  L.polyline([[62.3433,5.8488],[62.4700,6.1500],[62.4558,7.6703],[61.5,8.8],[60.0,9.3],[59.9139,10.7522],[59.0,10.8],[57.7,11.9],[56.0,12.6],[55.6761,12.5683]], { color:'#7c3aed', weight:2.5, dashArray:'8,5', opacity:.75 }).addTo(map);
 
   stops.forEach(s => {
     const icon = L.divIcon({
