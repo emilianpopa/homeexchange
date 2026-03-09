@@ -1,0 +1,257 @@
+- generic "Ramani za Google" [ref=e9]:
+  - generic [ref=e3]:
+    - application "Ramani·Tumia vitufe vya vishale kugeuza ramani upande.·Pata maelezo kuhusu eneo kwa kubonyeza ufunguo wa namba husika." [ref=e10]
+    - generic [ref=e8]:
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - radiogroup [ref=e18]:
+            - generic [ref=e19]:
+              - radio "Aina bora za usafiri" [checked] [disabled] [ref=e21]:
+                - img "Aina bora za usafiri" [ref=e22]:
+                  - generic [ref=e24]: 
+              - radio "Ukiendesha gari Saa 35" [ref=e28] [cursor=pointer]:
+                - img "Ukiendesha gari" [ref=e29]:
+                  - generic [ref=e31]: 
+                - generic [ref=e32]: Saa 35
+              - radio "Bodaboda hazipatikani" [disabled] [ref=e34]:
+                - img "Bodaboda hazipatikani" [ref=e35]:
+                  - generic [ref=e37]: 
+              - radio "Usafiri wa umma" [ref=e41] [cursor=pointer]:
+                - img "Usafiri wa umma" [ref=e42]:
+                  - generic [ref=e44]: 
+              - radio "Kutembea Siku 21" [ref=e46] [cursor=pointer]:
+                - img "Kutembea" [ref=e47]:
+                  - generic [ref=e49]: 
+                - generic [ref=e50]: Siku 21
+              - radio "Ukiendesha baiskeli Siku 6" [ref=e52] [cursor=pointer]:
+                - img "Ukiendesha baiskeli" [ref=e53]:
+                  - generic [ref=e55]: 
+                - generic [ref=e56]: Siku 6
+              - radio "Ndege hazipatikani" [disabled] [ref=e58]:
+                - img "Ndege hazipatikani" [ref=e59]:
+                  - generic [ref=e61]: 
+          - button "Funga maelekezo" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: 
+        - generic [ref=e66]:
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: 
+                - generic [ref=e71]: 
+              - generic [ref=e72]:
+                - combobox [ref=e74]:
+                  - textbox "Unakoanzia safari Kopenhagen, Denmaki" [ref=e75]:
+                    - /placeholder: ""
+                    - text: Kopenhagen, Denmaki
+                - button "Tafuta" [ref=e76]:
+                  - generic [ref=e77]: 
+                - button "Ondoa hatua ya kuanza" [ref=e78] [cursor=pointer]:
+                  - generic [ref=e79]: 
+            - listitem [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83]: 
+                - generic [ref=e84]: 
+              - generic [ref=e85]:
+                - combobox [ref=e87]:
+                  - textbox "Unakoenda Bergen, Norwe" [ref=e88]:
+                    - /placeholder: ""
+                    - text: Bergen, Norwe
+                - button "Tafuta" [ref=e89]:
+                  - generic [ref=e90]: 
+                - button "Ondoa mahali hapa" [ref=e91] [cursor=pointer]:
+                  - generic [ref=e92]: 
+            - listitem [ref=e94]:
+              - generic [ref=e95]:
+                - generic [ref=e96]: 
+                - generic [ref=e97]: 
+              - generic [ref=e98]:
+                - combobox [ref=e100]:
+                  - textbox "Unakoenda Ulsteinvik, 6065, Norwe" [ref=e101]:
+                    - /placeholder: ""
+                    - text: Ulsteinvik, 6065, Norwe
+                - button "Tafuta" [ref=e102]:
+                  - generic [ref=e103]: 
+                - button "Ondoa mahali hapa" [ref=e104] [cursor=pointer]:
+                  - generic [ref=e105]: 
+            - listitem [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]: 
+                - generic [ref=e110]: 
+              - generic [ref=e111]:
+                - combobox [ref=e113]:
+                  - textbox "Unakoenda Giske, 6052, Norwe" [ref=e114]:
+                    - /placeholder: ""
+                    - text: Giske, 6052, Norwe
+                - button "Tafuta" [ref=e115]:
+                  - generic [ref=e116]: 
+                - button "Ondoa mahali hapa" [ref=e117] [cursor=pointer]:
+                  - generic [ref=e118]: 
+            - listitem [ref=e120]:
+              - generic [ref=e122]: 
+              - generic [ref=e123]:
+                - combobox [ref=e125]:
+                  - textbox "Unakoenda Kopenhagen, Denmaki" [ref=e126]:
+                    - /placeholder: ""
+                    - text: Kopenhagen, Denmaki
+                - button "Tafuta" [ref=e127]:
+                  - generic [ref=e128]: 
+                - button "Ondoa mahali hapa" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e130]: 
+          - button "Weka unakoenda" [ref=e132]:
+            - generic [ref=e135] [cursor=pointer]: 
+            - generic [ref=e136] [cursor=pointer]: Weka unakoenda
+      - generic [ref=e139]:
+        - generic:
+          - button [ref=e140] [cursor=pointer]
+          - button "Show the Input Tools menu" [ref=e142] [cursor=pointer]
+    - region "Chaguo unazoweza kutafuta kwenye njia hii" [ref=e325]:
+      - generic [ref=e328]:
+        - button "Tafuta vituo vilivyo njiani" [ref=e330] [cursor=pointer]:
+          - generic [ref=e331]:
+            - generic [ref=e332]: 
+            - generic [ref=e333]: Tafuta njiani...
+        - button "Weka hoteli zilizo njiani" [ref=e335] [cursor=pointer]:
+          - generic [ref=e336]:
+            - generic [ref=e338]: 
+            - generic [ref=e339]: Hoteli
+        - button "Weka vituo vya mafuta njiani" [ref=e341] [cursor=pointer]:
+          - generic [ref=e342]:
+            - generic [ref=e344]: 
+            - generic [ref=e345]: Vituo vya mafuta
+        - button "Weka vituo vya kuchaji magari ya umeme vilivyo njiani" [ref=e347] [cursor=pointer]:
+          - generic [ref=e348]:
+            - generic [ref=e350]: 
+            - generic [ref=e351]: Kuchaji magari ya umeme
+        - button "Weka mambo ya kufanya ukiwa njiani" [ref=e353] [cursor=pointer]:
+          - generic [ref=e354]:
+            - generic [ref=e356]: 
+            - generic [ref=e357]: Mambo ya kufanya
+        - button "Weka viwanja vya kambi vilivyo njiani" [ref=e359] [cursor=pointer]:
+          - generic [ref=e360]:
+            - generic [ref=e362]: 
+            - generic [ref=e363]: Uwanja wa kambi
+      - button "Ukurasa unaofuata" [ref=e364] [cursor=pointer]:
+        - generic [ref=e365]: 
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - button "Menyu" [ref=e149] [cursor=pointer]:
+              - generic [ref=e151]: 
+          - listitem [ref=e152]:
+            - button "Imehifadhiwa" [ref=e153] [cursor=pointer]:
+              - generic [ref=e155]: 
+              - generic [ref=e157]: Imehifadhiwa
+          - listitem [ref=e158]:
+            - button "Za hivi majuzi" [ref=e159] [cursor=pointer]:
+              - generic [ref=e161]: 
+              - generic [ref=e163]: Za hivi majuzi
+          - listitem [ref=e165]:
+            - button "Kopenhagen Saa 35" [ref=e166] [cursor=pointer]:
+              - generic [ref=e172]: 
+              - generic [ref=e173]:
+                - generic [ref=e174]: Kopenhagen
+                - generic [ref=e175]: Saa 35
+          - listitem [ref=e366]:
+            - button "Bergen" [ref=e367] [cursor=pointer]:
+              - generic [ref=e373]: Bergen
+          - listitem [ref=e374]:
+            - button "Angalia zaidi" [ref=e375] [cursor=pointer]:
+              - generic [ref=e381]: 
+              - generic [ref=e383]: Angalia zaidi
+          - listitem [ref=e177]:
+            - button "Pakua programu" [ref=e178] [cursor=pointer]:
+              - generic [ref=e180]: 
+              - generic [ref=e182]: Pakua programu
+        - main "Maelekezo" [ref=e187]:
+          - button "Chaguo" [ref=e191] [cursor=pointer]:
+            - generic [ref=e192]: Chaguo
+          - generic [ref=e194]:
+            - button "Tuma maelekezo kwenye simu yako" [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e199]: 
+                - text: Tuma maelekezo kwenye simu yako
+            - button "Nakili kiungo" [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]: 
+                - text: Nakili kiungo
+          - link "Ukiendesha gari Saa 35 2,657 km kupitia E20 na E6 Fastest route now due to traffic conditions Onyo Njia hii ina ada. Onyo Njia hii inapitia Uswidi . Onyo Njia hii inajumuisha kutumia feri. Maelezo Chungulia kwanza" [ref=e205] [cursor=pointer]:
+            - img "Ukiendesha gari" [ref=e206]: 
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]: Saa 35
+                - generic [ref=e212]: 2,657 km
+              - heading "kupitia E20 na E6" [level=1] [ref=e214]
+              - generic [ref=e215]:
+                - generic [ref=e217]: Fastest route now due to traffic conditions
+                - list [ref=e218]:
+                  - listitem [ref=e219]:
+                    - generic [ref=e220]:
+                      - img "Onyo" [ref=e222]: 
+                      - heading "Njia hii ina ada." [level=6] [ref=e223]
+                  - listitem [ref=e224]:
+                    - generic [ref=e225]:
+                      - img "Onyo" [ref=e227]: 
+                      - heading "Njia hii inapitia Uswidi ." [level=6] [ref=e228]
+                  - listitem [ref=e229]:
+                    - generic [ref=e230]:
+                      - img "Onyo" [ref=e232]: 
+                      - heading "Njia hii inajumuisha kutumia feri." [level=6] [ref=e233]
+              - generic [ref=e234]:
+                - button "Maelezo" [active] [ref=e235]:
+                  - generic [ref=e237]: Maelezo
+                - button "Chungulia kwanza" [ref=e238]:
+                  - generic [ref=e240]: Chungulia kwanza
+          - heading "Gundua Kopenhagen" [level=2] [ref=e276]:
+            - generic [ref=e277]: Gundua Kopenhagen
+          - generic [ref=e279]:
+            - button "Mlo" [ref=e280] [cursor=pointer]:
+              - generic [ref=e283]: 
+              - generic [ref=e284]: Mlo
+            - button "Hoteli" [ref=e285] [cursor=pointer]:
+              - generic [ref=e288]: 
+              - generic [ref=e289]: Hoteli
+            - button "Vituo vya mafuta" [ref=e290] [cursor=pointer]:
+              - generic [ref=e293]: 
+              - generic [ref=e294]: Vituo vya mafuta
+            - button "Maegesho" [ref=e295] [cursor=pointer]:
+              - generic [ref=e298]: 
+              - generic [ref=e299]: Maegesho
+            - button "Zaidi" [ref=e300] [cursor=pointer]:
+              - generic [ref=e303]: 
+              - generic [ref=e304]: Zaidi
+          - generic [ref=e305]:
+            - generic [ref=e307]:
+              - generic [ref=e309]: 
+              - generic [ref=e310]: Mpya! Endelea na safari yako, gusa arifa kwenye simu yako ili upate maelekezo
+            - button "Ondoa" [ref=e311]:
+              - generic [ref=e312]: 
+      - button "Kunja kidirisha cha pembeni" [ref=e314] [cursor=pointer]:
+        - generic [ref=e315]: 
+    - generic [ref=e387]:
+      - button "Programu za Google" [ref=e391] [cursor=pointer]:
+        - img [ref=e392]
+      - link "Ingia" [ref=e395] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=sw&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2FKopenhagen%2C%2BDenmaki%2FBergen%2C%2BNorwe%2FUlsteinvik%2C%2B6065%2C%2BNorwe%2FGiske%2C%2B6052%2C%2BNorwe%2FKopenhagen%2C%2BDenmaki%2F%4060.5%2C8%2C6z%2Fdata%3D!4m31!4m30!1m5!1m1!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2m2!1d12.5683372!2d55.6760968!1m5!1m1!1s0x46390d4966767d77%3A0x9e42a03eb4de0a08!2m2!1d5.3220544!2d60.3912628!1m5!1m1!1s0x4617203bcc252db9%3A0x105e59acd5f6aa62!2m2!1d5.8488429!2d62.3433146!1m5!1m1!1s0x4616d82b55db9cf1%3A0x28109d7b954837b3!2m2!1d6.0500416!2d62.503891!1m5!1m1!1s0x4652533c5c803d23%3A0x4dd7edde69467b8!2m2!1d12.5683372!2d55.6760968%3Fentry%3Dttu%26g_ep%3DEgoyMDI2MDMwNC4xIKXMDSoASAFQAw%253D%253D&service=local&ec=GAZAcQ
+    - generic [ref=e396]:
+      - generic:
+        - button "Onyesha Mahali Ulipo" [ref=e399] [cursor=pointer]:
+          - generic [ref=e401]: 
+        - generic [ref=e403] [cursor=pointer]:
+          - button "Vuta karibu" [ref=e404]
+          - button "Sogeza mbali" [ref=e407]
+      - button "Vinjari Picha za Taswira ya Mtaa" [ref=e415]
+      - generic [ref=e421]:
+        - generic "Ramani wasilianifu" [ref=e422]
+        - generic [ref=e426] [cursor=pointer]:
+          - generic [ref=e427]: 
+          - generic [ref=e428]: Safu
+        - button "Safu" [ref=e429] [cursor=pointer]
+    - generic [ref=e431]:
+      - contentinfo [ref=e434]:
+        - text: Picha ©2026 , Data ya ramani ©2026 Google, GeoBasis-DE/BKG (©2009)
+        - button "Kenya" [ref=e435] [cursor=pointer]
+        - button "Sheria na Masharti" [ref=e436] [cursor=pointer]
+        - button "Faragha" [ref=e437] [cursor=pointer]
+        - button "Tuma Maoni kuhusu Bidhaa" [ref=e438] [cursor=pointer]
+      - button "km 100" [ref=e440] [cursor=pointer]: km 100
